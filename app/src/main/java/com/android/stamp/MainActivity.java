@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         TextView name = (TextView) findViewById(R.id.name);
         TextView logout = (TextView) findViewById(R.id.logout);
 
-        //세션에 올린 login정보 호출 테스트
+        //세션에 올린 login정보 호출
         name.setText(loginInformation.getString("name","") + "(" + loginInformation.getString("id","") + ")");
         //getAppKeyHash();
 
